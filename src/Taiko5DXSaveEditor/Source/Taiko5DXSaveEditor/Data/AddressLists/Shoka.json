@@ -1,0 +1,93 @@
+﻿[
+  {
+    "DataName": "Shoka.Ceasefire",
+    "HexAddress": "000666B6",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Shoka.JustCause",
+    "HexAddress": "0006672E",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Shoka.Diplomacy",
+    "HexAddress": "000667A6",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Shoka.DepartureCounter",
+    "HexAddress": "0006681E",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Shoka.RelationshipWithShujinko",
+    "HexAddress": "0006681E",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Shoka.FamilyCrest",
+    "HexAddress": "00066822",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Shoka.StoreMoney",
+    "HexAddress": "0005F0FA",
+    "NumberOfDataBits": 480,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 208
+  },
+  {
+    "DataName": "Shoka.StoreGuns",
+    "HexAddress": "0005F136",
+    "NumberOfDataBits": 480,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 208
+  },
+  {
+    "DataName": "Shoka.StoreKyotens",
+    "HexAddress": "0005F172",
+    "NumberOfDataBits": 240,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 208
+  },
+  {
+    "DataName": "Shoka.StoreLeaders",
+    "HexAddress": "0005F190",
+    "NumberOfDataBits": 240,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 208
+  },
+  {
+    "DataName": "Shoka.StoreAdvertisement",
+    "HexAddress": "0005F1B6",
+    "NumberOfDataBits": 120,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 208
+  },
+  {
+    "DataName": "Shoka.HomeStore",
+    "HexAddress": "0005F1C7",
+    "NumberOfDataBits": 4,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 208
+  },
+  {
+    "DataName": "Shoka.NameID",
+    "HexAddress": "0005F1AF",
+    "NumberOfDataBits": 6,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 208
+  }
+]

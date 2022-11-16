@@ -1,0 +1,513 @@
+﻿[
+  {
+    "DataName": "Shujinko.ID",
+    "HexAddress": "00071378",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Face1",
+    "HexAddress": "000070E4",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Face2",
+    "HexAddress": "000070E6",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Face3",
+    "HexAddress": "000070E8",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Face4",
+    "HexAddress": "000070EA",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.HitPoint",
+    "HexAddress": "00006F52",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Weapon",
+    "HexAddress": "00006F58",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Armor",
+    "HexAddress": "00006F5A",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Money",
+    "HexAddress": "00006F34",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Bank",
+    "HexAddress": "00006F38",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Herbs",
+    "HexAddress": "000073F4",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.IronSands",
+    "HexAddress": "000073F2",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ExpMedical",
+    "HexAddress": "00007074",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfFreeConsultations",
+    "HexAddress": "00007078",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.DaysOfCompounding",
+    "HexAddress": "0000707C",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.DaysOfGettingHerbs",
+    "HexAddress": "00007080",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfTeaCeremonys",
+    "HexAddress": "00007084",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ExpTeaSetCraft",
+    "HexAddress": "0000708C",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ExpGunpowderCraft",
+    "HexAddress": "0000739E",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ExpIronCraft",
+    "HexAddress": "000073A0",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ExpWeaponCraft",
+    "HexAddress": "000073A2",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ExpGunCraft",
+    "HexAddress": "000073A4",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ExpMeditation",
+    "HexAddress": "000070EC",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfWins",
+    "HexAddress": "00007068",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfConsecutiveWins",
+    "HexAddress": "00007070",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfDefeats",
+    "HexAddress": "0000706C",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfWinsWithSword",
+    "HexAddress": "00007100",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfWinsWithSpear",
+    "HexAddress": "00007101",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfWinsWithKunai",
+    "HexAddress": "00007102",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfWinsWithKusarigama",
+    "HexAddress": "00007103",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfWinsWithGun",
+    "HexAddress": "00007104",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfWinsWithBow",
+    "HexAddress": "00007105",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.MeishoCardFlags",
+    "HexAddress": "000070F0",
+    "NumberOfDataBits": 58,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.OtherCardFlags",
+    "HexAddress": "000070F9",
+    "NumberOfDataBits": 55,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpInfantry",
+    "HexAddress": "00007036",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpCavalry",
+    "HexAddress": "00007037",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpGun",
+    "HexAddress": "00007038",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpNavy",
+    "HexAddress": "00007039",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpArchery",
+    "HexAddress": "0000703A",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpMartialArts",
+    "HexAddress": "0000703B",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpTactics",
+    "HexAddress": "0000703C",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpNinjutsu",
+    "HexAddress": "0000703D",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpBuilding",
+    "HexAddress": "0000703E",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpAgriculture",
+    "HexAddress": "0000703F",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpMine",
+    "HexAddress": "00007040",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpMath",
+    "HexAddress": "00007041",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpCourtesy",
+    "HexAddress": "00007042",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpSpeech",
+    "HexAddress": "00007043",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpTeaCeremony",
+    "HexAddress": "00007044",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.SkillExpMedical",
+    "HexAddress": "00007045",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoExpDomesticAffairs",
+    "HexAddress": "00007048",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoExpDiplomacy",
+    "HexAddress": "0000704C",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfWarWin",
+    "HexAddress": "00007060",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfKill",
+    "HexAddress": "00007402",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfRebellion",
+    "HexAddress": "00007403",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfRecruiting",
+    "HexAddress": "00007404",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfAppraisal",
+    "HexAddress": "00007406",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfArtAcceptance",
+    "HexAddress": "00007407",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfBetrayal",
+    "HexAddress": "00007408",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfDevelopment",
+    "HexAddress": "0000740C",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.ShogoNumOfWorkInBar",
+    "HexAddress": "0000740D",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NameOfMyRyuha",
+    "HexAddress": "000070CA",
+    "NumberOfDataBits": 64,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.KanaOfMyRyuha",
+    "HexAddress": "000070D3",
+    "NumberOfDataBits": 104,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NameOfMyShoka",
+    "HexAddress": "00007090",
+    "NumberOfDataBits": 48,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.KanaOfMyShoka",
+    "HexAddress": "00007097",
+    "NumberOfDataBits": 88,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.Rival",
+    "HexAddress": "00006F54",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.DojoMoney",
+    "HexAddress": "000070EE",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.NumOfDisciples",
+    "HexAddress": "000073F6",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.InstructionDaimyoke",
+    "HexAddress": "00007410",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.InstructionCounter",
+    "HexAddress": "0000740F",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.BodyguardRank",
+    "HexAddress": "000073FA",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.BodyguardDays",
+    "HexAddress": "00007405",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "Shujinko.WifeAffection",
+    "HexAddress": "00086076",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  }
+]

@@ -1,0 +1,135 @@
+﻿[
+  {
+    "DataName": "Daimyoke.Ceasefire",
+    "HexAddress": "000602A2",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Daimyoke.JustCause",
+    "HexAddress": "0006031A",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Daimyoke.Diplomacy",
+    "HexAddress": "00060392",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Daimyoke.DepartureCounter",
+    "HexAddress": "0006040A",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Daimyoke.RelationshipWithShujinko",
+    "HexAddress": "0006040A",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Daimyoke.FamilyCrest",
+    "HexAddress": "0006040E",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "Daimyoke.InactivationFlag",
+    "HexAddress": "0004544C",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.Daihoshin",
+    "HexAddress": "0004544C",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 4,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.Senryaku",
+    "HexAddress": "0004544D",
+    "NumberOfDataBits": 4,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.Leader",
+    "HexAddress": "0004544E",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.ImperialCourtContribution",
+    "HexAddress": "00045450",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.DaihoshinTarget",
+    "HexAddress": "00045452",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.SenryakuTarget",
+    "HexAddress": "00045454",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.GoyoShonin1",
+    "HexAddress": "00045456",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.GoyoShonin2",
+    "HexAddress": "00045457",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.GoyoShonin3",
+    "HexAddress": "00045458",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.GoyoShoninContribution1",
+    "HexAddress": "00045459",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.GoyoShoninContribution2",
+    "HexAddress": "0004545A",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Daimyoke.GoyoShoninContribution3",
+    "HexAddress": "0004545B",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  }
+]

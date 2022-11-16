@@ -1,0 +1,555 @@
+﻿[
+  {
+    "DataName": "Busho.FamilyName",
+    "HexAddress": "000354AC",
+    "NumberOfDataBits": 64,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Busho.GivenName",
+    "HexAddress": "000354B5",
+    "NumberOfDataBits": 64,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Busho.Mibun",
+    "HexAddress": "000354BE",
+    "NumberOfDataBits": 6,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Busho.Sex",
+    "HexAddress": "000354BE",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Busho.WifePersonality",
+    "HexAddress": "000354BE",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 7,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Busho.Face1",
+    "HexAddress": "000354C0",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Busho.Face2",
+    "HexAddress": "000354C2",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Busho.KanaOfFamilyName",
+    "HexAddress": "00020084",
+    "NumberOfDataBits": 72,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.KanaOfGivenName",
+    "HexAddress": "0002008E",
+    "NumberOfDataBits": 72,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.State1",
+    "HexAddress": "00020098",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.Kyoten",
+    "HexAddress": "00020099",
+    "NumberOfDataBits": 9,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.State2",
+    "HexAddress": "0002009A",
+    "NumberOfDataBits": 7,
+    "LeastSignificantBit": 1,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.State3",
+    "HexAddress": "0002009B",
+    "NumberOfDataBits": 4,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillInfantry",
+    "HexAddress": "0002009C",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillCavalry",
+    "HexAddress": "0002009C",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillGun",
+    "HexAddress": "0002009C",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillNavy",
+    "HexAddress": "0002009D",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 1,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillArchery",
+    "HexAddress": "0002009D",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 4,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillMartialArts",
+    "HexAddress": "0002009D",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 7,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillTactics",
+    "HexAddress": "0002009E",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillNinjutsu",
+    "HexAddress": "0002009E",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 5,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillBuilding",
+    "HexAddress": "000200A0",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillAgriculture",
+    "HexAddress": "000200A0",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillMine",
+    "HexAddress": "000200A0",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillMath",
+    "HexAddress": "000200A1",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 1,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillCourtesy",
+    "HexAddress": "000200A1",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 4,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillSpeech",
+    "HexAddress": "000200A1",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 7,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillTeaCeremony",
+    "HexAddress": "000200A2",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.SkillMedical",
+    "HexAddress": "000200A2",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 5,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.Parents",
+    "HexAddress": "000200A4",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.Grandparents",
+    "HexAddress": "000200A6",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.YearOfBirth",
+    "HexAddress": "000200A8",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.YearOfAdult",
+    "HexAddress": "000200A9",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.Closeness",
+    "HexAddress": "000200AA",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "Busho.Formation",
+    "HexAddress": "0000E718",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Preference",
+    "HexAddress": "0000E718",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Desire",
+    "HexAddress": "0000E718",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 4,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Drinking",
+    "HexAddress": "0000E718",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Temper",
+    "HexAddress": "0000E719",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Honor",
+    "HexAddress": "0000E719",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Spirit",
+    "HexAddress": "0000E719",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 4,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Ism",
+    "HexAddress": "0000E719",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Behavior",
+    "HexAddress": "0000E71A",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Occupation",
+    "HexAddress": "0000E71A",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.SeiryokuCompatibility",
+    "HexAddress": "0000E71C",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Compatibility",
+    "HexAddress": "0000E71D",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Fame",
+    "HexAddress": "0000E71E",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Notorious",
+    "HexAddress": "0000E71F",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.ShoninAchievement",
+    "HexAddress": "0000E720",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.NinjaAchievement",
+    "HexAddress": "0000E722",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.KaizokuAchievement",
+    "HexAddress": "0000E724",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Leadership",
+    "HexAddress": "0000E726",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.CombatPower",
+    "HexAddress": "0000E727",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Politics",
+    "HexAddress": "0000E728",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Intellect",
+    "HexAddress": "0000E729",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Charm",
+    "HexAddress": "0000E72A",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Seiryoku",
+    "HexAddress": "0000E72B",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.BetrayalFlag",
+    "HexAddress": "0000E72C",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Origin",
+    "HexAddress": "0000E72C",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Tachiba",
+    "HexAddress": "0000E72D",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Luck",
+    "HexAddress": "0000E72D",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 4,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.State4",
+    "HexAddress": "0000E72D",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.PreviousRelationship",
+    "HexAddress": "0000E72E",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.CauseOfDeath",
+    "HexAddress": "0000E72F",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 1,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.WeaponType",
+    "HexAddress": "0000E72F",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.License",
+    "HexAddress": "0000E72F",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Boss",
+    "HexAddress": "0000E730",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Salary",
+    "HexAddress": "0000E732",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Ambition",
+    "HexAddress": "0000E734",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.Loyalty",
+    "HexAddress": "0000E735",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Busho.HigiCardFlags",
+    "HexAddress": "0002D654",
+    "NumberOfDataBits": 94,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 26
+  },
+  {
+    "DataName": "Busho.ShogoCardFlags",
+    "HexAddress": "0002D660",
+    "NumberOfDataBits": 106,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 26
+  },
+  {
+    "DataName": "Busho.KassenCardFlags",
+    "HexAddress": "0001D320",
+    "NumberOfDataBits": 75,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 10
+  },
+  {
+    "DataName": "Busho.YearOfDeath",
+    "HexAddress": "00007418",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "Busho.Kani",
+    "HexAddress": "00007419",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "Busho.Ryuha",
+    "HexAddress": "0000741A",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "Busho.Master",
+    "HexAddress": "0000741C",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "Busho.BushiAchievement",
+    "HexAddress": "0000741E",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "Busho.Spouse",
+    "HexAddress": "00007420",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  }
+]

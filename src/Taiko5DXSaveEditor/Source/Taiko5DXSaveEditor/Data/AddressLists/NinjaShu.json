@@ -1,0 +1,72 @@
+﻿[
+  {
+    "DataName": "NinjaShu.Ceasefire",
+    "HexAddress": "0006834E",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "NinjaShu.JustCause",
+    "HexAddress": "000683C6",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "NinjaShu.Diplomacy",
+    "HexAddress": "0006843E",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "NinjaShu.DepartureCounter",
+    "HexAddress": "000684B6",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "NinjaShu.RelationshipWithShujinko",
+    "HexAddress": "000684B6",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "NinjaShu.FamilyCrest",
+    "HexAddress": "000684BA",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "NinjaShu.Leader",
+    "HexAddress": "000601EE",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "NinjaShu.NameID",
+    "HexAddress": "000601F0",
+    "NumberOfDataBits": 5,
+    "LeastSignificantBit": 5,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "NinjaShu.Senryaku",
+    "HexAddress": "000601F2",
+    "NumberOfDataBits": 4,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "NinjaShu.SenryakuTarget",
+    "HexAddress": "000601F6",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  }
+]

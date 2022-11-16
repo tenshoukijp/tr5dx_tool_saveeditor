@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38683D7A-1640-4BA0-985E-4D152F51E860}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Taiko5DXSaveEditor</RootNamespace>
+    <AssemblyName>Taiko5DXSaveEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Test\TestSpace\</OutputPath>
+    <IntermediateOutputPath>..\..\Obj\Taiko5DXSaveEditor\Debug\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Test\TestSpace\Taiko5DXSaveEditor.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <IntermediateOutputPath>..\..\Obj\Taiko5DXSaveEditor\Release\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <AllowedReferenceRelatedFileExtensions>
+      *.xml;
+      *.pdb
+    </AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Hideyoshi.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JpnKanaConversion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\ExtLib\Packages\JPNKanaConv.1.0.0\lib\netstandard2.0\JpnKanaConversion.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\ExtLib\Packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\ExtLib\Packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\ExtLib\Packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\ExtLib\Packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressInfo.cs" />
+    <Compile Include="DataEditForms\ImageSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\ImageSelectForm.Designer.cs">
+      <DependentUpon>ImageSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\MachiShisetuEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\MachiShisetuEditForm.Designer.cs">
+      <DependentUpon>MachiShisetuEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\TradeGoodsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\TradeGoodsEditForm.Designer.cs">
+      <DependentUpon>TradeGoodsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DDS\DDSImage.cs" />
+    <Compile Include="GameObjects\Busho.cs" />
+    <Compile Include="GameObjects\Daimyoke.cs" />
+    <Compile Include="GameData.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\Hanro.cs" />
+    <Compile Include="GameObjects\Item.cs" />
+    <Compile Include="GameObjects\KaizokuShu.cs" />
+    <Compile Include="GameObjects\Kani.cs" />
+    <Compile Include="GameObjects\Kyoten.cs" />
+    <Compile Include="GameObjects\Machi.cs" />
+    <Compile Include="GameObjects\NinjaShu.cs" />
+    <Compile Include="GameObjects\PeopleCategory.cs" />
+    <Compile Include="GameObjects\Ryuha.cs" />
+    <Compile Include="GameObjects\Sato.cs" />
+    <Compile Include="GameObjects\Shiro.cs" />
+    <Compile Include="GameObjects\Shoken.cs" />
+    <Compile Include="GameObjects\Shujinko.cs" />
+    <Compile Include="GameObjects\Seiryoku.cs" />
+    <Compile Include="GameObjects\Shoka.cs" />
+    <Compile Include="GameObjects\Toride.cs" />
+    <Compile Include="GameObjects\World.cs" />
+    <Compile Include="ImportingAndExporting\EditingDataExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportingAndExporting\EditingDataExportForm.Designer.cs">
+      <DependentUpon>EditingDataExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportingAndExporting\EditingData.cs" />
+    <Compile Include="ImportingAndExporting\EditingDataImporter.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveFileManager.cs" />
+    <Compile Include="DataEditForms\BushoEdit\AffiliationEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\BushoEdit\AffiliationEditForm.Designer.cs">
+      <DependentUpon>AffiliationEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\BushoEdit\BasicEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\BushoEdit\BasicEditForm.Designer.cs">
+      <DependentUpon>BasicEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\BushoEdit\HiddenEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\BushoEdit\HiddenEditForm.Designer.cs">
+      <DependentUpon>HiddenEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\BushoEdit\RelationshipEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\BushoEdit\RelationshipEditForm.Designer.cs">
+      <DependentUpon>RelationshipEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\DataEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\DataEditForm.Designer.cs">
+      <DependentUpon>DataEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\ItemEdit\ItemEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\ItemEdit\ItemEditForm.Designer.cs">
+      <DependentUpon>ItemEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\KyotenImageEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\KyotenImageEditForm.Designer.cs">
+      <DependentUpon>KyotenImageEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\MachiEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\MachiEditForm.Designer.cs">
+      <DependentUpon>MachiEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\SatoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\SatoEditForm.Designer.cs">
+      <DependentUpon>SatoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\ShiroEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\ShiroEditForm.Designer.cs">
+      <DependentUpon>ShiroEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\TorideEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\KyotenEdit\TorideEditForm.Designer.cs">
+      <DependentUpon>TorideEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\HanroEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\HanroEditForm.Designer.cs">
+      <DependentUpon>HanroEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\KaniEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\KaniEditForm.Designer.cs">
+      <DependentUpon>KaniEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\RyuhaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\RyuhaEditForm.Designer.cs">
+      <DependentUpon>RyuhaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\ShokenEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\OtherEdit\ShokenEditForm.Designer.cs">
+      <DependentUpon>ShokenEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\DaimyokeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\DaimyokeEditForm.Designer.cs">
+      <DependentUpon>DaimyokeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\DiplomacyEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\DiplomacyEditForm.Designer.cs">
+      <DependentUpon>DiplomacyEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\KaizokuShuEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\KaizokuShuEditForm.Designer.cs">
+      <DependentUpon>KaizokuShuEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\NinjaShuEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\NinjaShuEditForm.Designer.cs">
+      <DependentUpon>NinjaShuEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\ShokaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\ShokaEditForm.Designer.cs">
+      <DependentUpon>ShokaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\StoreEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\SeiryokuEdit\StoreEditForm.Designer.cs">
+      <DependentUpon>StoreEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\BasicEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\BasicEditForm.Designer.cs">
+      <DependentUpon>BasicEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\ExpEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\ExpEditForm.Designer.cs">
+      <DependentUpon>ExpEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\NameEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\NameEditForm.Designer.cs">
+      <DependentUpon>NameEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\OtherEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\ShujinkoEdit\OtherEditForm.Designer.cs">
+      <DependentUpon>OtherEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditForms\WorldEdit\WorldEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditForms\WorldEdit\WorldEditForm.Designer.cs">
+      <DependentUpon>WorldEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableManagement\BushoTableManager.cs" />
+    <Compile Include="TableManagement\CitizenTableManager.cs" />
+    <Compile Include="TableManagement\CraftItemTableManager.cs" />
+    <Compile Include="TableManagement\DaimyokeTableManager.cs" />
+    <Compile Include="TableManagement\EventPersonTableManager.cs" />
+    <Compile Include="TableManagement\GameDataTableCellValue.cs" />
+    <Compile Include="TableManagement\GameDataTableManager.cs" />
+    <Compile Include="TableManagement\GeneralPurposeTableManager.cs" />
+    <Compile Include="TableManagement\HanroTableManager.cs" />
+    <Compile Include="TableManagement\ItemTableManager.cs" />
+    <Compile Include="TableManagement\KaizokuShuTableManager.cs" />
+    <Compile Include="TableManagement\KaniTableManager.cs" />
+    <Compile Include="TableManagement\MachiTableManager.cs" />
+    <Compile Include="TableManagement\NinjaShuTableManager.cs" />
+    <Compile Include="TableManagement\RyuhaTableManager.cs" />
+    <Compile Include="TableManagement\SatoTableManager.cs" />
+    <Compile Include="TableManagement\ShiroTableManager.cs" />
+    <Compile Include="TableManagement\ShokaTableManager.cs" />
+    <Compile Include="TableManagement\ShokenTableManager.cs" />
+    <Compile Include="TableManagement\ShujinkoTableManager.cs" />
+    <Compile Include="TableManagement\TableType.cs" />
+    <Compile Include="TableManagement\TorideTableManager.cs" />
+    <Compile Include="TableManagement\WorldTableManager.cs" />
+    <EmbeddedResource Include="DataEditForms\ImageSelectForm.resx">
+      <DependentUpon>ImageSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\KyotenEdit\MachiShisetuEditForm.resx">
+      <DependentUpon>MachiShisetuEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\KyotenEdit\TradeGoodsEditForm.resx">
+      <DependentUpon>TradeGoodsEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportingAndExporting\EditingDataExportForm.resx">
+      <DependentUpon>EditingDataExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="DataEditForms\BushoEdit\AffiliationEditForm.resx">
+      <DependentUpon>AffiliationEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\BushoEdit\BasicEditForm.resx">
+      <DependentUpon>BasicEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\BushoEdit\HiddenEditForm.resx">
+      <DependentUpon>HiddenEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\BushoEdit\RelationshipEditForm.resx">
+      <DependentUpon>RelationshipEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\DataEditForm.resx">
+      <DependentUpon>DataEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\ItemEdit\ItemEditForm.resx">
+      <DependentUpon>ItemEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\KyotenEdit\KyotenImageEditForm.resx">
+      <DependentUpon>KyotenImageEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\KyotenEdit\MachiEditForm.resx">
+      <DependentUpon>MachiEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\KyotenEdit\SatoEditForm.resx">
+      <DependentUpon>SatoEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\KyotenEdit\ShiroEditForm.resx">
+      <DependentUpon>ShiroEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\KyotenEdit\TorideEditForm.resx">
+      <DependentUpon>TorideEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\OtherEdit\HanroEditForm.resx">
+      <DependentUpon>HanroEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\OtherEdit\KaniEditForm.resx">
+      <DependentUpon>KaniEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\OtherEdit\RyuhaEditForm.resx">
+      <DependentUpon>RyuhaEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\OtherEdit\ShokenEditForm.resx">
+      <DependentUpon>ShokenEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\SeiryokuEdit\DaimyokeEditForm.resx">
+      <DependentUpon>DaimyokeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\SeiryokuEdit\DiplomacyEditForm.resx">
+      <DependentUpon>DiplomacyEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\SeiryokuEdit\KaizokuShuEditForm.resx">
+      <DependentUpon>KaizokuShuEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\SeiryokuEdit\NinjaShuEditForm.resx">
+      <DependentUpon>NinjaShuEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\SeiryokuEdit\ShokaEditForm.resx">
+      <DependentUpon>ShokaEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\SeiryokuEdit\StoreEditForm.resx">
+      <DependentUpon>StoreEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\ShujinkoEdit\BasicEditForm.resx">
+      <DependentUpon>BasicEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\ShujinkoEdit\ExpEditForm.resx">
+      <DependentUpon>ExpEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\ShujinkoEdit\NameEditForm.resx">
+      <DependentUpon>NameEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\ShujinkoEdit\OtherEditForm.resx">
+      <DependentUpon>OtherEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditForms\WorldEdit\WorldEditForm.resx">
+      <DependentUpon>WorldEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="CopyImage.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Busho.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Checksum.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Daimyoke.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Hanro.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Item.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\KaizokuShu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Kani.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Machi.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\NinjaShu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Ryuha.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Sato.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Shiro.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Shoka.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Shoken.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Shujinko.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\Toride.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\AddressLists\World.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\StaticData\ItemData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Data\NameLists\Scenario.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\SenryakuKaizoku.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Chiho.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Daihoshin.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\HigiCard.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Item.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\ItemImage.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\ItemType.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Kaizoku-shu.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Kan-i.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\KassenCard.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Kuni.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Kyoten.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\KyotenImage.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\MeishoCard.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Mibun.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Ninja-shu.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\OtherCard.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Parents.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Ryuha.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Senryaku.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\SenryakuNinja.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\ShogoCard.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Sho-ka.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Shoken.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\Tachiba.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\NameLists\TradeGoods.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Hideyoshi.ico" />
+    <Content Include="Resources\OpenFileIcon.png" />
+    <Content Include="Resources\SaveIcon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,51 @@
+﻿[
+  {
+    "DataName": "World.ScenarioNumber",
+    "HexAddress": "0007137F",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "World.Year",
+    "HexAddress": "00006EF4",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "World.Month",
+    "HexAddress": "00006EF5",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "World.Day",
+    "HexAddress": "00006EF6",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "World.Time",
+    "HexAddress": "00006EF7",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "World.PlayDays",
+    "HexAddress": "00006EF8",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  },
+  {
+    "DataName": "World.NextMeetingDays",
+    "HexAddress": "00006F16",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 0
+  }
+]

@@ -1,0 +1,212 @@
+﻿[
+  {
+    "DataName": "Machi.Location",
+    "HexAddress": "0003D324",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Machi.Scale",
+    "HexAddress": "0003D325",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Machi.NameID",
+    "HexAddress": "0003D326",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Machi.Money",
+    "HexAddress": "0003EEA8",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Image",
+    "HexAddress": "0003EEAD",
+    "NumberOfDataBits": 6,
+    "LeastSignificantBit": 1,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.RiceStore",
+    "HexAddress": "0003EEB2",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Stable",
+    "HexAddress": "0003EEB4",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Bar",
+    "HexAddress": "0003EEB6",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Inn",
+    "HexAddress": "0003EEB8",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.PrivateHouse",
+    "HexAddress": "0003EEBA",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Dojo2",
+    "HexAddress": "0003EEBC",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.DoctorHouse",
+    "HexAddress": "0003EEBE",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.TeaMasterHouse",
+    "HexAddress": "0003EEC0",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Temple",
+    "HexAddress": "0003EEC2",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Blacksmith",
+    "HexAddress": "0003EEC4",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.CraftsmanHouse",
+    "HexAddress": "0003EEC6",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.ForeignTemple",
+    "HexAddress": "0003EEC8",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.ForeignFirm",
+    "HexAddress": "0003EECA",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.AristocraticHouse",
+    "HexAddress": "0003EECC",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.ImperialPalace",
+    "HexAddress": "0003EECE",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Market",
+    "HexAddress": "0003EED0",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.Dojo1",
+    "HexAddress": "0003EED2",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.TradingPost",
+    "HexAddress": "0003EED4",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.RiceMarketPrice",
+    "HexAddress": "0003EED8",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.RiceInventory",
+    "HexAddress": "0003EED9",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.HorseMarketPrice",
+    "HexAddress": "0003EEDA",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.HorseInventory",
+    "HexAddress": "0003EEDB",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.TradeGoods",
+    "HexAddress": "0003EEDC",
+    "NumberOfDataBits": 80,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.TradeGoodsSupplyRate",
+    "HexAddress": "0003EEE6",
+    "NumberOfDataBits": 80,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  },
+  {
+    "DataName": "Machi.TradeGoodsInventory",
+    "HexAddress": "0003EEF0",
+    "NumberOfDataBits": 800,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 184
+  }
+]

@@ -1,0 +1,86 @@
+﻿[
+  {
+    "DataName": "Toride.Location",
+    "HexAddress": "0003D4F8",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Toride.Scale",
+    "HexAddress": "0003D4F9",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Toride.NameID",
+    "HexAddress": "0003D4FA",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Toride.Money",
+    "HexAddress": "000451D0",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.MilitaryFood",
+    "HexAddress": "000451D4",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.Leader",
+    "HexAddress": "000451D8",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.NumOfWeakWarships",
+    "HexAddress": "000451DA",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.NumOfMiddleWarships",
+    "HexAddress": "000451DC",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.NumOfStrongWarships",
+    "HexAddress": "000451DE",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.Morale",
+    "HexAddress": "000451E0",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.DefensePower",
+    "HexAddress": "000451E1",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  },
+  {
+    "DataName": "Toride.DegreeOfTraining",
+    "HexAddress": "000451E2",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 28
+  }
+]

@@ -1,0 +1,142 @@
+﻿[
+  {
+    "DataName": "Shiro.Location",
+    "HexAddress": "0003CEEC",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Shiro.Scale",
+    "HexAddress": "0003CEED",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Shiro.NameID",
+    "HexAddress": "0003CEEE",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Shiro.Leader",
+    "HexAddress": "0003D558",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.NumOfSoldiers",
+    "HexAddress": "0003D55A",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.MilitaryFood",
+    "HexAddress": "0003D55C",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.Money",
+    "HexAddress": "0003D560",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.Morale",
+    "HexAddress": "0003D564",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.DegreeOfTraining",
+    "HexAddress": "0003D565",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.NumOfGuns",
+    "HexAddress": "0003D566",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.NumOfWarHorses",
+    "HexAddress": "0003D568",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.NumOfCannons",
+    "HexAddress": "0003D56A",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.Kokudaka",
+    "HexAddress": "0003D56C",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.MaxKokudakaMultiple",
+    "HexAddress": "0003D56E",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.Population",
+    "HexAddress": "0003D56F",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.Mine",
+    "HexAddress": "0003D570",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.MaxMine",
+    "HexAddress": "0003D571",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.DefensePower",
+    "HexAddress": "0003D572",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.ResidentSupport",
+    "HexAddress": "0003D573",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 36
+  },
+  {
+    "DataName": "Shiro.Image",
+    "HexAddress": "0003D579",
+    "NumberOfDataBits": 5,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 36
+  }
+]

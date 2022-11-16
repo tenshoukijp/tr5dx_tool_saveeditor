@@ -1,0 +1,72 @@
+﻿[
+  {
+    "DataName": "Sato.Location",
+    "HexAddress": "0003D4B0",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Sato.Scale",
+    "HexAddress": "0003D4B1",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Sato.NameID",
+    "HexAddress": "0003D4B2",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 6
+  },
+  {
+    "DataName": "Sato.Money",
+    "HexAddress": "00045020",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Sato.MilitaryFood",
+    "HexAddress": "00045024",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Sato.Leader",
+    "HexAddress": "00045028",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Sato.NumOfSoldiers",
+    "HexAddress": "0004502A",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Sato.Morale",
+    "HexAddress": "0004502C",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Sato.DefensePower",
+    "HexAddress": "0004502D",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  },
+  {
+    "DataName": "Sato.DegreeOfTraining",
+    "HexAddress": "0004502E",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 24
+  }
+]

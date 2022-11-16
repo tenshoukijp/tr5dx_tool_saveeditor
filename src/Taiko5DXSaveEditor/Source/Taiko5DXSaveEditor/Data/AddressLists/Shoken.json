@@ -1,0 +1,16 @@
+﻿[
+  {
+    "DataName": "Shoken.Daimyoke",
+    "HexAddress": "0006AF22",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 4
+  },
+  {
+    "DataName": "Shoken.ShoninTukasa",
+    "HexAddress": "0006AF23",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 4
+  }
+]

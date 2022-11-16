@@ -1,0 +1,100 @@
+﻿[
+  {
+    "DataName": "Item.Owner",
+    "HexAddress": "00056C8A",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 4
+  },
+  {
+    "DataName": "Item.Number",
+    "HexAddress": "00056C8C",
+    "NumberOfDataBits": 7,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 4
+  },
+  {
+    "DataName": "Item.SecretFlag",
+    "HexAddress": "00056C8C",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 7,
+    "OffsetBytesOfNextData": 4
+  },
+  {
+    "DataName": "CraftItem.Name",
+    "HexAddress": "00057216",
+    "NumberOfDataBits": 112,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.Kana",
+    "HexAddress": "00057225",
+    "NumberOfDataBits": 136,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.Image",
+    "HexAddress": "00057237",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.Price",
+    "HexAddress": "00057238",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.Rarity",
+    "HexAddress": "0005723A",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.ItemType",
+    "HexAddress": "0005723A",
+    "NumberOfDataBits": 6,
+    "LeastSignificantBit": 6,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.Owner",
+    "HexAddress": "0005723C",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.Number",
+    "HexAddress": "0005723E",
+    "NumberOfDataBits": 7,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.SecretFlag",
+    "HexAddress": "0005723E",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 7,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.AbilityScores",
+    "HexAddress": "00057240",
+    "NumberOfDataBits": 5,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 44
+  },
+  {
+    "DataName": "CraftItem.AbilityType",
+    "HexAddress": "00057240",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 5,
+    "OffsetBytesOfNextData": 44
+  }
+]

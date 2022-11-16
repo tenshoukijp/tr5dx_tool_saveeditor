@@ -1,0 +1,86 @@
+﻿[
+  {
+    "DataName": "KaizokuShu.Ceasefire",
+    "HexAddress": "000698C0",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "KaizokuShu.JustCause",
+    "HexAddress": "00069938",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "KaizokuShu.Diplomacy",
+    "HexAddress": "000699B0",
+    "NumberOfDataBits": 960,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "KaizokuShu.DepartureCounter",
+    "HexAddress": "00069A28",
+    "NumberOfDataBits": 3,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "KaizokuShu.RelationshipWithShujinko",
+    "HexAddress": "00069A28",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "KaizokuShu.FamilyCrest",
+    "HexAddress": "00069A2C",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 366
+  },
+  {
+    "DataName": "KaizokuShu.ShipbuildingMiddle",
+    "HexAddress": "0006013B",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "KaizokuShu.ShipbuildingStrong",
+    "HexAddress": "0006013B",
+    "NumberOfDataBits": 2,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "KaizokuShu.NameID",
+    "HexAddress": "0006013B",
+    "NumberOfDataBits": 5,
+    "LeastSignificantBit": 4,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "KaizokuShu.Leader",
+    "HexAddress": "0006013E",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "KaizokuShu.Senryaku",
+    "HexAddress": "00060140",
+    "NumberOfDataBits": 4,
+    "LeastSignificantBit": 2,
+    "OffsetBytesOfNextData": 12
+  },
+  {
+    "DataName": "KaizokuShu.SenryakuTarget",
+    "HexAddress": "00060144",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 12
+  }
+]

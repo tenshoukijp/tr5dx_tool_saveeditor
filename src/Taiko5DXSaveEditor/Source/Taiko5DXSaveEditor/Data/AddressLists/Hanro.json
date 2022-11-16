@@ -1,0 +1,58 @@
+﻿[
+  {
+    "DataName": "Hanro.Kanjo",
+    "HexAddress": "0006AF6E",
+    "NumberOfDataBits": 32,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Hanro.Machi1",
+    "HexAddress": "0006AF72",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Hanro.Machi2",
+    "HexAddress": "0006AF74",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Hanro.MaintenanceCosts",
+    "HexAddress": "0006AF76",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Hanro.Administrator",
+    "HexAddress": "0006AF78",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Hanro.Type",
+    "HexAddress": "0006AF7A",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 3,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Hanro.Guard",
+    "HexAddress": "0006AF7C",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  },
+  {
+    "DataName": "Hanro.Stopping",
+    "HexAddress": "0006AF7D",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 20
+  }
+]

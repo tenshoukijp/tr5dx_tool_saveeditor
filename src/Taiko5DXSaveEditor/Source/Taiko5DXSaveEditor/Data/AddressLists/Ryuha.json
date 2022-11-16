@@ -1,0 +1,30 @@
+﻿[
+  {
+    "DataName": "Ryuha.Leader",
+    "HexAddress": "0006AE32",
+    "NumberOfDataBits": 16,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 8
+  },
+  {
+    "DataName": "Ryuha.License",
+    "HexAddress": "0006AE36",
+    "NumberOfDataBits": 1,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 8
+  },
+  {
+    "DataName": "Ryuha.NameID",
+    "HexAddress": "0006AE36",
+    "NumberOfDataBits": 5,
+    "LeastSignificantBit": 1,
+    "OffsetBytesOfNextData": 8
+  },
+  {
+    "DataName": "Ryuha.DojoYaburi",
+    "HexAddress": "0006AE38",
+    "NumberOfDataBits": 8,
+    "LeastSignificantBit": 0,
+    "OffsetBytesOfNextData": 8
+  }
+]
